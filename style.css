@@ -39,6 +39,37 @@ li {
     justify-content: flex-end;
 }
 
+.hero-container {
+    display: flex;
+    flex-direction: row; /* This will make the elements flow horizontally */
+    justify-content: space-between; /* This will push the elements to the left and right edges */
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding:  20px;
+
+  }
+  
+  .hero-left {
+    flex: 1; /* This will make it take up available space on the left */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 8px;
+  }
+  
+  .hero-photo {
+    max-height: 300px; /* Set your desired maximum height */
+    overflow: hidden; /* Hide the overflowed content */
+    position: relative; /* Establish positioning context */
+  
+    /* Center the image horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 section {
     padding: 40px;
