@@ -16,6 +16,7 @@ s2 - gyro
         image
 s3 - title
 s4 - images+textx4
+
 s5 - text banner
 s6 - call to action
     box 1
@@ -32,3 +33,29 @@ Fix basic design decisions
 rounded corners on gyro image
 Maybe something cool on hover over image
 Hover state for buttons
+
+Colors and font styles
+
+dark background color (hero and footer)
+#1F2937
+
+Hero Main Text (this website is awesome)
+48px extra-bold #f9faf8
+
+hero secondary text, header link text
+18px #e5e7eb
+
+header logo text
+24px #f9faf8
+
+button color, CTA bkg color
+#3882F6
+
+info header text
+36px extra-bold #1f2937
+
+quote section background color
+e5e7eb
+
+quote text
+36px light italic #1f2937
