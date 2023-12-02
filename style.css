@@ -54,7 +54,7 @@ img:hover {
 }
 
 
-button, .cta {
+.hero-button {
     background-color: #3882f6;
     color:#e5e7eb;
     padding-left: 24px;
@@ -163,6 +163,12 @@ button:hover {
     font-size: 36px;
     font-style: italic;
     color: rgb(97, 97, 97);
+    transition: color 1.5s ease-in-out;
+}
+
+.quote-text:hover {
+    color: #639cf8 ;
+    
 }
 
 .quote-author {
@@ -172,6 +178,11 @@ button:hover {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+.quote-author:hover {
+    color: #639cf8;
+    transition: color 1.5s ease-in-out;
 }
 
 .section-about {
@@ -240,6 +251,55 @@ button:hover {
                 border-radius: 24px;
                 
             }
+.section-signup{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 125px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 125px;
+}
+
+.cta-box{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+.cta-text {
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    color: #E5E7EB;
+    font-size: larger;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border-color: #e5e7eb;
+    font-weight: bolder;
+    font-size: 16px;
+
+}
 
 footer {
     background-color: #1f2937;
