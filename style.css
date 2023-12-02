@@ -149,12 +149,29 @@ button:hover {
 
 .quote-container {
     background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 200px;
+    flex-direction: column;
+
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: rgb(97, 97, 97);
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .section-about {
@@ -188,23 +205,21 @@ button:hover {
         justify-items: center;
         padding-top: 36px;
     }
-        .section-container {
+        .content-container {
+            flex: 1;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            align-items: center;
-            align-content: center;
+            flex-direction: column;
+
         
         }
             .box-text {
+                flex: 1;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                align-items: center;
                 align-content: center;
-                align-self: center;
                 text-align: center;
-                padding: 16px;
+                margin-top: 20px;
                 
             }
 
@@ -214,6 +229,7 @@ button:hover {
                 overflow: hidden; /* Hide the overflowed content */
                 position: relative; /* Establish positioning context */
                 display: flex;
+                flex: 1;
                 justify-content: center;
                 align-items: center;
                 align-content: center;
