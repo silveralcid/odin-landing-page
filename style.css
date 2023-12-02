@@ -17,6 +17,17 @@ ul {
 li {
     margin-left: 18px;
 }
+
+.slogan {
+    color: #fff;
+    font-weight: bolder;
+    font-size:x-large;
+}
+
+.text {
+    color: #fff;
+    font-size: normal;
+}
 .header {
     background-color: #1f2937;
     /* replace below color */
@@ -40,13 +51,13 @@ li {
 }
 
 .hero-container {
+    background-color: #1f2937;
     display: flex;
     flex-direction: row; /* This will make the elements flow horizontally */
-    justify-content: space-between; /* This will push the elements to the left and right edges */
+    justify-content: center; /* This will push the elements to the left and right edges */
     align-items: center;
     align-content: center;
     margin: 0 auto;
-    max-width: 1200px;
     padding:  20px;
 
   }
@@ -69,6 +80,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 24px;
+    box-shadow: 8px 6px 8px rgb(255, 255, 255, 0.1); /* Adjust the values as needed */
   }
 
 section {
